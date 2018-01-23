@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E46E07631F52A0820069409F /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46E07621F52A0820069409F /* ViewControllerMain.swift */; };
+		E47C4A2E1F524A9500E5C5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4A2D1F524A9500E5C5DA /* AppDelegate.swift */; };
+		E47C4A301F524A9500E5C5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4A2F1F524A9500E5C5DA /* ViewController.swift */; };
+		E47C4A331F524A9500E5C5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47C4A311F524A9500E5C5DA /* Main.storyboard */; };
+		E47C4A351F524A9500E5C5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47C4A341F524A9500E5C5DA /* Assets.xcassets */; };
+		E47C4A381F524A9500E5C5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47C4A361F524A9500E5C5DA /* LaunchScreen.storyboard */; };
+		E47C4A431F524A9600E5C5DA /* Deep_watcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4A421F524A9600E5C5DA /* Deep_watcherTests.swift */; };
+		E47C4A4E1F524A9600E5C5DA /* Deep_watcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4A4D1F524A9600E5C5DA /* Deep_watcherUITests.swift */; };
+		E47C4A5C1F525A3E00E5C5DA /* CamaraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C4A5B1F525A3E00E5C5DA /* CamaraController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E47C4A3F1F524A9600E5C5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47C4A221F524A9500E5C5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47C4A291F524A9500E5C5DA;
+			remoteInfo = "Deep watcher";
+		};
+		E47C4A4A1F524A9600E5C5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47C4A221F524A9500E5C5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47C4A291F524A9500E5C5DA;
+			remoteInfo = "Deep watcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E46E07621F52A0820069409F /* ViewControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		E47C4A2A1F524A9500E5C5DA /* Deep watcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deep watcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47C4A2D1F524A9500E5C5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E47C4A2F1F524A9500E5C5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E47C4A321F524A9500E5C5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E47C4A341F524A9500E5C5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E47C4A371F524A9500E5C5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E47C4A391F524A9500E5C5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47C4A3E1F524A9600E5C5DA /* Deep watcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deep watcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47C4A421F524A9600E5C5DA /* Deep_watcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep_watcherTests.swift; sourceTree = "<group>"; };
+		E47C4A441F524A9600E5C5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47C4A491F524A9600E5C5DA /* Deep watcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deep watcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47C4A4D1F524A9600E5C5DA /* Deep_watcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep_watcherUITests.swift; sourceTree = "<group>"; };
+		E47C4A4F1F524A9600E5C5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47C4A5B1F525A3E00E5C5DA /* CamaraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamaraController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E47C4A271F524A9500E5C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C4A3B1F524A9600E5C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C4A461F524A9600E5C5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E47C4A211F524A9500E5C5DA = {
+			isa = PBXGroup;
+			children = (
+				E47C4A2C1F524A9500E5C5DA /* Deep watcher */,
+				E47C4A411F524A9600E5C5DA /* Deep watcherTests */,
+				E47C4A4C1F524A9600E5C5DA /* Deep watcherUITests */,
+				E47C4A2B1F524A9500E5C5DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E47C4A2B1F524A9500E5C5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E47C4A2A1F524A9500E5C5DA /* Deep watcher.app */,
+				E47C4A3E1F524A9600E5C5DA /* Deep watcherTests.xctest */,
+				E47C4A491F524A9600E5C5DA /* Deep watcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E47C4A2C1F524A9500E5C5DA /* Deep watcher */ = {
+			isa = PBXGroup;
+			children = (
+				E47C4A2D1F524A9500E5C5DA /* AppDelegate.swift */,
+				E47C4A2F1F524A9500E5C5DA /* ViewController.swift */,
+				E46E07621F52A0820069409F /* ViewControllerMain.swift */,
+				E47C4A311F524A9500E5C5DA /* Main.storyboard */,
+				E47C4A5B1F525A3E00E5C5DA /* CamaraController.swift */,
+				E47C4A341F524A9500E5C5DA /* Assets.xcassets */,
+				E47C4A361F524A9500E5C5DA /* LaunchScreen.storyboard */,
+				E47C4A391F524A9500E5C5DA /* Info.plist */,
+			);
+			path = "Deep watcher";
+			sourceTree = "<group>";
+		};
+		E47C4A411F524A9600E5C5DA /* Deep watcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E47C4A421F524A9600E5C5DA /* Deep_watcherTests.swift */,
+				E47C4A441F524A9600E5C5DA /* Info.plist */,
+			);
+			path = "Deep watcherTests";
+			sourceTree = "<group>";
+		};
+		E47C4A4C1F524A9600E5C5DA /* Deep watcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E47C4A4D1F524A9600E5C5DA /* Deep_watcherUITests.swift */,
+				E47C4A4F1F524A9600E5C5DA /* Info.plist */,
+			);
+			path = "Deep watcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E47C4A291F524A9500E5C5DA /* Deep watcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47C4A521F524A9600E5C5DA /* Build configuration list for PBXNativeTarget "Deep watcher" */;
+			buildPhases = (
+				E47C4A261F524A9500E5C5DA /* Sources */,
+				E47C4A271F524A9500E5C5DA /* Frameworks */,
+				E47C4A281F524A9500E5C5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deep watcher";
+			productName = "Deep watcher";
+			productReference = E47C4A2A1F524A9500E5C5DA /* Deep watcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E47C4A3D1F524A9600E5C5DA /* Deep watcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47C4A551F524A9600E5C5DA /* Build configuration list for PBXNativeTarget "Deep watcherTests" */;
+			buildPhases = (
+				E47C4A3A1F524A9600E5C5DA /* Sources */,
+				E47C4A3B1F524A9600E5C5DA /* Frameworks */,
+				E47C4A3C1F524A9600E5C5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47C4A401F524A9600E5C5DA /* PBXTargetDependency */,
+			);
+			name = "Deep watcherTests";
+			productName = "Deep watcherTests";
+			productReference = E47C4A3E1F524A9600E5C5DA /* Deep watcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E47C4A481F524A9600E5C5DA /* Deep watcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47C4A581F524A9600E5C5DA /* Build configuration list for PBXNativeTarget "Deep watcherUITests" */;
+			buildPhases = (
+				E47C4A451F524A9600E5C5DA /* Sources */,
+				E47C4A461F524A9600E5C5DA /* Frameworks */,
+				E47C4A471F524A9600E5C5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47C4A4B1F524A9600E5C5DA /* PBXTargetDependency */,
+			);
+			name = "Deep watcherUITests";
+			productName = "Deep watcherUITests";
+			productReference = E47C4A491F524A9600E5C5DA /* Deep watcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E47C4A221F524A9500E5C5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Julio Cesar Gutierrez Briones";
+				TargetAttributes = {
+					E47C4A291F524A9500E5C5DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4SB5G67U66;
+						ProvisioningStyle = Automatic;
+					};
+					E47C4A3D1F524A9600E5C5DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4SB5G67U66;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E47C4A291F524A9500E5C5DA;
+					};
+					E47C4A481F524A9600E5C5DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4SB5G67U66;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E47C4A291F524A9500E5C5DA;
+					};
+				};
+			};
+			buildConfigurationList = E47C4A251F524A9500E5C5DA /* Build configuration list for PBXProject "Deep watcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E47C4A211F524A9500E5C5DA;
+			productRefGroup = E47C4A2B1F524A9500E5C5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E47C4A291F524A9500E5C5DA /* Deep watcher */,
+				E47C4A3D1F524A9600E5C5DA /* Deep watcherTests */,
+				E47C4A481F524A9600E5C5DA /* Deep watcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E47C4A281F524A9500E5C5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47C4A381F524A9500E5C5DA /* LaunchScreen.storyboard in Resources */,
+				E47C4A351F524A9500E5C5DA /* Assets.xcassets in Resources */,
+				E47C4A331F524A9500E5C5DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C4A3C1F524A9600E5C5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C4A471F524A9600E5C5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E47C4A261F524A9500E5C5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47C4A301F524A9500E5C5DA /* ViewController.swift in Sources */,
+				E47C4A2E1F524A9500E5C5DA /* AppDelegate.swift in Sources */,
+				E47C4A5C1F525A3E00E5C5DA /* CamaraController.swift in Sources */,
+				E46E07631F52A0820069409F /* ViewControllerMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C4A3A1F524A9600E5C5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47C4A431F524A9600E5C5DA /* Deep_watcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47C4A451F524A9600E5C5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47C4A4E1F524A9600E5C5DA /* Deep_watcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E47C4A401F524A9600E5C5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47C4A291F524A9500E5C5DA /* Deep watcher */;
+			targetProxy = E47C4A3F1F524A9600E5C5DA /* PBXContainerItemProxy */;
+		};
+		E47C4A4B1F524A9600E5C5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47C4A291F524A9500E5C5DA /* Deep watcher */;
+			targetProxy = E47C4A4A1F524A9600E5C5DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E47C4A311F524A9500E5C5DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E47C4A321F524A9500E5C5DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E47C4A361F524A9500E5C5DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E47C4A371F524A9500E5C5DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E47C4A501F524A9600E5C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E47C4A511F524A9600E5C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E47C4A531F524A9600E5C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4SB5G67U66;
+				INFOPLIST_FILE = "Deep watcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WITink.Deep-watcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E47C4A541F524A9600E5C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4SB5G67U66;
+				INFOPLIST_FILE = "Deep watcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WITink.Deep-watcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E47C4A561F524A9600E5C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4SB5G67U66;
+				INFOPLIST_FILE = "Deep watcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WITink.Deep-watcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deep watcher.app/Deep watcher";
+			};
+			name = Debug;
+		};
+		E47C4A571F524A9600E5C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4SB5G67U66;
+				INFOPLIST_FILE = "Deep watcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WITink.Deep-watcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deep watcher.app/Deep watcher";
+			};
+			name = Release;
+		};
+		E47C4A591F524A9600E5C5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4SB5G67U66;
+				INFOPLIST_FILE = "Deep watcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WITink.Deep-watcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Deep watcher";
+			};
+			name = Debug;
+		};
+		E47C4A5A1F524A9600E5C5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4SB5G67U66;
+				INFOPLIST_FILE = "Deep watcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WITink.Deep-watcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Deep watcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E47C4A251F524A9500E5C5DA /* Build configuration list for PBXProject "Deep watcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47C4A501F524A9600E5C5DA /* Debug */,
+				E47C4A511F524A9600E5C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47C4A521F524A9600E5C5DA /* Build configuration list for PBXNativeTarget "Deep watcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47C4A531F524A9600E5C5DA /* Debug */,
+				E47C4A541F524A9600E5C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47C4A551F524A9600E5C5DA /* Build configuration list for PBXNativeTarget "Deep watcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47C4A561F524A9600E5C5DA /* Debug */,
+				E47C4A571F524A9600E5C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47C4A581F524A9600E5C5DA /* Build configuration list for PBXNativeTarget "Deep watcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47C4A591F524A9600E5C5DA /* Debug */,
+				E47C4A5A1F524A9600E5C5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E47C4A221F524A9500E5C5DA /* Project object */;
+}
